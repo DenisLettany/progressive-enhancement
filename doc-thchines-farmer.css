@@ -1,0 +1,150 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    /* margin: 0; */
+    box-sizing: border-box;
+}
+
+p {
+    font-family: serif;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    color: #333;
+}
+
+a {
+    font-size: 1.5rem;
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+body {
+    max-width: 90%;
+    margin: auto;
+    background: linear-gradient(to bottom right, white, pink);
+    background: url("./chat-becode.png") bottom right/cover;
+}
+
+blockquote {
+    max-width: 50%;
+    margin: auto;
+    font-size: 160%;
+    background-color: #777;
+    border-left: 3px solid Firebrick;
+    font-style: italic;
+}
+
+blockquote * {
+    margin: 80px 0px 80px 30px;
+}
+
+.villagers {
+    border-left: 1px solid orange;
+}
+
+.farmer {
+    border-left: 1px solid red;
+}
+
+header h1 {
+    background-color: yellow;
+}
+
+q {
+    font-style: italic;
+}
+
+.good, .bad {
+    text-transform: capitalize;
+}
+
+.bad {
+    color: red;
+}
+
+.good {
+    color: green;
+}
+
+table tr:nth-child(odd) {
+    background-color: #777;
+}
+
+ul li {
+    margin: 3rem 0;
+}
+
+ul li:nth-child(1):after {
+    content: url("./bien-becode.png");
+}
+
+ul li:nth-child(2):after {
+    content: url("./mal-becode.png");
+}
+
+ul li:nth-child(3):after {
+    content: url("./chat-becode.png");
+}
+
+.first-paragraph {
+    font-weight: bold;
+}
+
+/* .number-one {
+    overflow: auto;
+}
+
+.number-one img {
+    width: 40%;
+    float: left;
+}
+
+.number-one p {
+    width: 40%;
+    float: right;
+}
+
+.number-two {
+    overflow: auto;
+}
+
+.number-two figure {
+    width: 40%;
+    float: left;
+}
+
+.number-two blockquote {
+    width: 40%;
+    float: right;
+} */
+
+.number-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.number-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+  }
